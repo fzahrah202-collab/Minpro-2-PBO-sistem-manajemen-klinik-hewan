@@ -1,13 +1,13 @@
-package com.mycompany.klinikhewan;
+package model;
 
 public class Hewan {
 
     private int idData;
     private String namaHewan;
     private String jenisHewan;
-    private String umur;
+    private int umur;
 
-    public Hewan(int idData, String namaHewan, String jenisHewan, String umur) {
+    public Hewan(int idData, String namaHewan, String jenisHewan, int umur) {
         this.idData = idData;
         this.namaHewan = namaHewan;
         this.jenisHewan = jenisHewan;
@@ -26,7 +26,7 @@ public class Hewan {
         return jenisHewan;
     }
 
-    public String getUmur() {
+    public int getUmur() {
         return umur;
     }
 
@@ -38,7 +38,11 @@ public class Hewan {
         this.jenisHewan = jenisHewan;
     }
 
-    public void setUmur(String umur) {
+    public void setUmur(int umur) {
         this.umur = umur;
+    }
+    
+    public void tampilkanInfo() {
+        System.out.println("Jenis Hewan: " + jenisHewan);
     }
 }

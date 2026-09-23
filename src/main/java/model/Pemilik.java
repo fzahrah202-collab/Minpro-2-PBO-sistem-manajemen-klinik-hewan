@@ -1,4 +1,4 @@
-package com.mycompany.klinikhewan;
+package model;
 
 public class Pemilik {
 

@@ -1,5 +1,7 @@
-com\mycompany\klinikhewan\Pemilik.class
-com\mycompany\klinikhewan\Service.class
-com\mycompany\klinikhewan\Hewan.class
+model\Service.class
+model\Pemeriksaan.class
 com\mycompany\klinikhewan\KlinikHewan.class
-com\mycompany\klinikhewan\Pemeriksaan.class
+model\Hewan.class
+model\Anjing.class
+model\Kucing.class
+model\Pemilik.class

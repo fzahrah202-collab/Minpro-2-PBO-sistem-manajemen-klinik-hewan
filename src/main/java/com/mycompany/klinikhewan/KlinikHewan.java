@@ -1,5 +1,6 @@
 package com.mycompany.klinikhewan;
 
+import model.Service;
 import java.util.Scanner;
 
 public class KlinikHewan {
@@ -21,10 +22,21 @@ public class KlinikHewan {
             System.out.println("5. Keluar                                ");
             System.out.println("\n=======================================");
 
-            System.out.print("Pilih menu (1-5): ");
-            int pilihan = scanner.nextInt();
-            scanner.nextLine();
-            System.out.println("\n=======================================");
+            int pilihan;
+            
+            while (true) {
+                System.out.print("Pilih menu (1-5): ");
+                pilihan = Integer.parseInt(scanner.nextLine());
+                
+                if (pilihan >= 1 && pilihan <= 5) {
+                    break;
+                }
+                else {
+                    System.out.println(">> Pilihan harus 1-5!");
+                }
+            }
+
+            System.out.println("=======================================");
 
             switch (pilihan) {
 
