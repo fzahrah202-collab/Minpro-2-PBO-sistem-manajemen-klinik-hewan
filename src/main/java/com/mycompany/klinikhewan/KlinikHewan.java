@@ -15,24 +15,36 @@ public class KlinikHewan {
         while (berjalan) {
 
             System.out.println("\n==== SISTEM MANAJEMEN KLINIK HEWAN ====");
-            System.out.println("1. Tambah Data                           ");
-            System.out.println("2. Tampilkan Data                        ");
-            System.out.println("3. Hapus Data                            ");
-            System.out.println("4. Update Data                           ");
-            System.out.println("5. Keluar                                ");
-            System.out.println("\n=======================================");
+            System.out.println("1. Tambah Data");
+            System.out.println("2. Tampilkan Data");
+            System.out.println("3. Hapus Data");
+            System.out.println("4. Update Data");
+            System.out.println("5. Keluar");
+            System.out.println("=======================================");
 
             int pilihan;
-            
+
             while (true) {
+
                 System.out.print("Pilih menu (1-5): ");
-                pilihan = Integer.parseInt(scanner.nextLine());
-                
-                if (pilihan >= 1 && pilihan <= 5) {
-                    break;
+
+                if (scanner.hasNextInt()) {
+
+                    pilihan = scanner.nextInt();
+                    scanner.nextLine();
+
+                    if (pilihan >= 1 && pilihan <= 5) {
+                        break;
+                    }
+                    else {
+                        System.out.println(">> Pilihan harus 1-5!");
+                    }
+
                 }
                 else {
-                    System.out.println(">> Pilihan harus 1-5!");
+
+                    System.out.println(">> Pilihan harus berupa angka!");
+                    scanner.nextLine();
                 }
             }
 
