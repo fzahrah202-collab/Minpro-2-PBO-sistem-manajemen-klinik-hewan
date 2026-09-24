@@ -220,6 +220,9 @@ Contoh:
 
 <img width="540" height="79" alt="image" src="https://github.com/user-attachments/assets/55ae5595-bc02-4665-8169-e7885fcb1672" />
 
+<img width="305" height="251" alt="image" src="https://github.com/user-attachments/assets/992b1557-e581-46b1-a4e7-14b4b0cad6fa" />
+
+
 ## Validasi data kosong
 
 Program menggunakan isEmpty() untuk memastikan input teks tidak kosong.
@@ -228,11 +231,17 @@ Contohnya:
 
 <img width="541" height="69" alt="image" src="https://github.com/user-attachments/assets/b8d64d8f-8a5c-4627-8f15-54af0bda3e00" />
 
+<img width="310" height="93" alt="image" src="https://github.com/user-attachments/assets/b799c3f3-1322-4929-8559-1aa84075f8aa" />
+
+
 ## Validasi nomor telepon
 
 Nomor telepon juga memiliki validasi panjang karakter, yaitu minimal 10 digit dan maksimal 13 digit.
 
 <img width="540" height="121" alt="image" src="https://github.com/user-attachments/assets/57ccf6bf-7097-4ebf-947a-712b0eea9c58" />
+
+<img width="306" height="66" alt="image" src="https://github.com/user-attachments/assets/95d3df7a-e2e5-4f5b-8d75-deefd1eee3c6" />
+
 
 ## Validasi ID Data
 
@@ -241,6 +250,8 @@ Program melakukan pengecekan ID agar ID yang sama tidak dapat digunakan kembali.
 Jika ID sudah terdaftar, program akan meminta pengguna memasukkan ID lain.
 
 <img width="532" height="209" alt="image" src="https://github.com/user-attachments/assets/ca101ba4-ef21-4558-aab5-88d34ff31f2a" />
+
+<img width="319" height="65" alt="image" src="https://github.com/user-attachments/assets/94673396-2004-4480-8ca7-fd8ddf3838ca" />
 
 ### 5. Dummy Data
 
