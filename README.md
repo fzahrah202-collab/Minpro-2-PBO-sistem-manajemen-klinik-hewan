@@ -21,25 +21,25 @@ Program memiliki struktur package sebagai berikut:
 
 1. Package com.mycompany.klinikhewan
 
-Berisi class KlinikHewan.java yang digunakan sebagai class utama untuk menjalankan program.
+Berisi class `KlinikHewan.java` yang digunakan sebagai class utama untuk menjalankan program.
 
 Class ini berisi:
 
-Menu utama program
-Input pilihan menu
-Perulangan program
-Pemanggilan method pada class Service
+- Menu utama program
+- Input pilihan menu
+- Perulangan program
+- Pemanggilan method pada class Service
 
 2. Package model
 
 Berisi class yang digunakan untuk menyimpan data dan mengatur proses program, yaitu:
 
-Service : mengatur proses tambah, tampil, hapus, dan update data.
-Hewan : superclass untuk data hewan.
-Kucing : subclass dari Hewan.
-Anjing : subclass dari Hewan.
-Pemilik : menyimpan data pemilik hewan.
-Pemeriksaan : menyimpan data pemeriksaan hewan.
+- `Service` : mengatur proses tambah, tampil, hapus, dan update data.
+- `Hewan` : superclass untuk data hewan.
+- `Kucing` : subclass dari Hewan.
+- `Anjing` : subclass dari Hewan.
+- `Pemilik` : menyimpan data pemilik hewan.
+- `Pemeriksaan` : menyimpan data pemeriksaan hewan.
 
 ---
 
@@ -193,6 +193,7 @@ Selain atribut yang diwariskan, masing-masing subclass memiliki atribut khusus:
 Atribut tersebut digunakan untuk menyimpan status vaksin F3 pada kucing.
 
 **Anjing**
+
 <img width="453" height="39" alt="image" src="https://github.com/user-attachments/assets/b692ae30-3753-497a-a8c5-694ea53d9d88" />
 
 Atribut tersebut digunakan untuk menyimpan status vaksin rabies pada anjing.
@@ -272,6 +273,7 @@ Pemanggilan polymorphism dilakukan pada class Service:
 
 <img width="456" height="42" alt="image" src="https://github.com/user-attachments/assets/b47d1c17-59b6-4e34-9cff-99d1259e33f1" />
 
+
 <img width="444" height="113" alt="image" src="https://github.com/user-attachments/assets/fc20397e-7da1-4411-9ddb-3e2246ec1ef6" />
 
 Walaupun variabel menggunakan tipe Hewan, method yang dijalankan akan menyesuaikan objek sebenarnya.
@@ -282,12 +284,4 @@ Jika objek merupakan Anjing, maka tampilkanInfo() milik Anjing akan dijalankan.
 
 Dengan demikian, program menerapkan polymorphism melalui method overriding.
 
-### Class yang Digunakan
 
-- `KlinikHewan`	Menjalankan program dan menampilkan menu utama
-- `Service`	Mengatur proses tambah, tampil, hapus, dan update data
-- `Hewan`	Superclass untuk data hewan
-- `Kucing`	Subclass Hewan dengan atribut status vaksin F3
-- `Anjing`	Subclass Hewan dengan atribut status vaksin rabies
-- `Pemilik`	Menyimpan data pemilik hewan
-- `Pemeriksaan`	Menyimpan data pemeriksaan hewan
